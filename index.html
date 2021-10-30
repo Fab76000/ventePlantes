@@ -111,8 +111,8 @@
            </section> 
 
            <section id="Form-plants">
-                <Form class="select">
-                    <select name="Choice-plants" class="decorated" id="Choice-plants">
+               <!-- <Form class="select">
+                    <select name="Choice-plants" class="decorated" id="Choice-plants" multiple>
                      <option value="Choice-plant0" selected  class="Choice-plants">Faites votre choix</option>
                      <option value="Choice-plant1"  class="Choice-plants"> Plante - 9,99€</option>
                      <option value="Choice-plant2"  class="Choice-plants"> Plante - 14,99€</option>
@@ -122,8 +122,55 @@
                      <option value="Choice-plant6"  class="Choice-plants"> Plante - 39,99€</option>
                      <option value="Choice-plant7"  class="Choice-plants"> Plante - 44,99€</option>
                     </select>
-            </Form>
-         </section>
+            </Form> -->
+
+            <Form>
+                <div>
+                    <p>  <label for="Choice-plants">Choisissez votre plante: </label></p>
+                </div>
+                <div class="container">
+                     <div>
+                       <input type="checkbox" id="Choice-plant1"  name="Choice-plant1"
+                               checked>
+                        <label for="plant">Plante - 9,99€</label>
+                      </div>
+                      
+                      <div>
+                        <input type="checkbox" id="Choice-plant2" class="plant" name="Choice-plant2">
+                        <label for="plant">Plante - 14,99€</label>
+                      </div>
+        
+                      <div>
+                        <input type="checkbox" id="Choice-plant3"  class="plant" name="Choice-plant3">
+                        <label for="plant">Plante - 17,99€</label>
+                      </div>
+        
+                      <div>
+                        <input type="checkbox" id="Choice-plant4" class="plant" name="Choice-plant4">
+                        <label for="plant">Plante - 24,99€</label>
+                      </div>
+        
+                      <div>
+                        <input type="checkbox" id="Choice-plant5" class="plant" name="Choice-plant5">
+                        <label for="plant">Plante - 29,99€</label>
+                      </div>
+        
+                      <div>
+                        <input type="checkbox" id="Choice-plant6" class="plant" name="Choice-plant6">
+                        <label for="plant">Plante - 39,99€</label>
+                      </div>
+        
+                      <div>
+                        <input type="checkbox" id="Choice-plant6" name="Choice-plant">
+                        <label for="plant">Plante - 44,99€</label>
+                      </div>
+                </div>                  
+           </select>
+        </Form>
+
+            
+              
+        </section>
         <footer>
             <p class="copyright">&copy; 2020 - Nature Emoi</p>
             <a href="" class="cgv">Conditions générales de vente</a>

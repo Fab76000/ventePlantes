@@ -231,9 +231,33 @@ nav.nav li a  {
         display: flex;
         justify-content: center;
         align-items: center;
+        
     }
 
-#Choice-plants {
+
+.container {
+    border: 4px solid #ADD981;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 10px;
+    font-family: 'Montserrat', cursive;
+    
+}
+
+label {
+    cursor: pointer;
+}
+p {
+    margin-bottom: 8px;
+    font-family: 'Montserrat', cursive;
+    font-weight: bold;
+    color: black;
+    text-align:center;
+    
+}
+        
+
+/*#Choice-plants {
       
        background-color: #ADD981;
        color: black;
@@ -279,7 +303,9 @@ nav.nav li a  {
   
   .select:hover::after {
     color: #ADD981;
-  }
+  }*/
+
+
 /* Footer */
 
 footer {
