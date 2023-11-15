@@ -21,3 +21,10 @@ icone du retrait sans contact : `fas fa-people-carry`
 icone de la livraison : `fas fa-truck`
 
 Lien d'integration flaticon : https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js
+
+# ventePlantes
+Un site de vente de plantes - partie front-end
+
+Création de la partie front-end d'un site fictif de vente de plantes d'après le super tutoriel de Graven sur youtube.
+J'y ai ajouté un peu de responsive et un formulaire de choix de plantes : un à choix multiple ou un à choix unique en commentaire.
+
